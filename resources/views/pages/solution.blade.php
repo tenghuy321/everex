@@ -29,6 +29,28 @@
         .text-5xl {
             font-size: 2rem
         }
+        .values a {
+            width: 250px;
+            font-size: 18px;
+            text-align: center;
+            text-decoration: none;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            padding: 18px 40px;
+            background-color: red;
+            transition: 0.5s;
+            background: rgb(0, 0, 0);
+        }
+
+        .values .a-right {
+            background: linear-gradient(90deg, rgba(9, 0, 1, 1) 0%, rgba(210, 0, 19, 1) 80%);
+            clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 10% 55%, 0% 0%);
+        }
+
+        .values .a-left {
+            background: linear-gradient(90deg, rgba(210, 0, 19, 1) 20%, rgba(9, 0, 1, 1) 100%);
+            clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 20% 99%, 0% 55%, 20% 0%);
+        }
     </style>
 @endsection
 
@@ -64,14 +86,14 @@
         </div>
 
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 mt-10">
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-md mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
                     <div class="text-center">
                         <i class="fa-solid fa-truck-fast mb-5 text-2xl"></i>
-                    </div>  
+                    </div>
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-normal uppercase text-gray-900 dark:text-white text-center">@lang('solution.speed')</h5>
                     </a>
@@ -84,14 +106,14 @@
                     </a>
                 </div>
             </div>
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
                     <div class="text-center">
                         <i class="fa-solid fa-handshake mb-5 text-2xl"></i>
-                    </div>  
+                    </div>
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-normal uppercase text-gray-900 dark:text-white text-center">@lang('solution.reliability')</h5>
                     </a>
@@ -104,14 +126,14 @@
                     </a>
                 </div>
             </div>
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
                     <div class="text-center">
                         <i class="fa-solid fa-money-bill-wave mb-5 text-2xl"></i>
-                    </div>  
+                    </div>
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-normal uppercase text-gray-900 dark:text-white text-center">@lang('solution.affordability')</h5>
                     </a>
@@ -124,14 +146,14 @@
                     </a>
                 </div>
             </div>
-            <div class="max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
                     <div class="text-center">
                         <i class="fa-solid fa-handshake-angle mb-5 text-2xl"></i>
-                    </div>  
+                    </div>
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-normal uppercase text-gray-900 dark:text-white text-center">@lang('solution.customer_support')</h5>
                     </a>
@@ -165,12 +187,12 @@
 
     {{-- <section data-aos="fade-up" class="section__text max-w-screen-xl sm:mx-auto md:py-8 lg:px-4 ">
       <div class="grid grid-cols-1 gap-6 sm:grid-cols-3 px-4 md:px-0">
-          
+
           <div
               class="max-w-sm bg-white  dark:bg-red-700 dark:border-gray-700 ">
               <div class="relative mb-6 sm:mb-0">
                 <div class="mt-3 ">
-    
+
                     <ol class="space-y-4 w-full">
                         <li>
                             <div class="w-full p-4 text-green-700 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:border-green-800 dark:text-green-400"
@@ -233,16 +255,16 @@
                             </div>
                         </li>
                     </ol>
-    
+
                 </div>
             </div>
           </div>
-          
+
           <div
               class="max-w-sm bg-white  dark:bg-red-700 dark:border-gray-700 ">
               <div class="relative mb-6 sm:mb-0">
                 <div class="mt-3 ">
-    
+
                     <ol class="space-y-4 w-full">
                         <li>
                             <div class="w-full p-4 text-green-700 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:border-green-800 dark:text-green-400"
@@ -305,16 +327,16 @@
                             </div>
                         </li>
                     </ol>
-    
+
                 </div>
             </div>
           </div>
-          
+
           <div
               class="max-w-sm bg-white  dark:bg-red-700 dark:border-gray-700 ">
               <div class="relative mb-6 sm:mb-0">
                 <div class="mt-3 ">
-    
+
                     <ol class="space-y-4 w-full">
                         <li>
                             <div class="w-full p-4 text-green-700 border border-green-300 rounded-lg bg-green-50 dark:bg-gray-800 dark:border-green-800 dark:text-green-400"
@@ -377,12 +399,12 @@
                             </div>
                         </li>
                     </ol>
-    
+
                 </div>
             </div>
           </div>
-          
-         
+
+
 
 
       </div>
@@ -529,9 +551,27 @@
             <h2 class="text-5xl my-10 mb-12"> Our values </h2>
           </span>
         </div>
-    
-        <div class="w-full inline-flex items-center justify-between">
-          <ul class="d-flex mb-px text-sm font-medium text-center" id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content" data-tabs-active-classes="text-purple-600 hover:text-purple-600 dark:text-purple-500 dark:hover:text-purple-500 border-purple-600 dark:border-purple-500" data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300" role="tablist">
+
+        <div class="w-full inline-flex items-center justify-center values">
+            <ul class="">
+                <li class="mt-5 flex flex-row  text-center justify-center items-center">
+                    <a href="#" class="a-right mr-3 ml-2 text-white">@lang('about.speed')</a>
+                    <p class="text-md lg:text-xl">@lang('about.sub_speed')</p>
+                </li>
+                <li class="mt-5 flex text-center justify-center items-center">
+                    <p class="text-md lg:text-xl mr-3">@lang('about.sub_efficiency')</p> <a href="#"
+                        class="a-left mr-2 text-white">@lang('about.efficiency')</a>
+                </li>
+                <li class="mt-5 flex text-center justify-center items-center">
+                    <a href="#" class="a-right mr-3 ml-2 text-white">@lang('about.excellence')</a>
+                    <p class="text-md lg:text-xl">@lang('about.sub_excellence')</p>
+                </li>
+                <li class="mt-5 flex text-center justify-center items-center">
+                    <p class="text-md lg:text-xl mr-3 ">@lang('about.sub_dedication')</p> <a href="#"
+                        class="a-left mr-2 text-white">@lang('about.dedication')</a>
+                </li>
+            </ul>
+          {{-- <ul class="d-flex mb-px text-sm font-medium text-center" id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content" data-tabs-active-classes="text-purple-600 hover:text-purple-600 dark:text-purple-500 dark:hover:text-purple-500 border-purple-600 dark:border-purple-500" data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300" role="tablist">
               <li class="me-2 mb-4" role="presentation">
                   <button class="inline-block text-red-700 hover:text-white hover:bg-red-800  focus:outline-none focus:border-gray-900 focus:bg-gray-900 focus:text-white font-medium rounded-xl text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600 " id="profile-styled-tab" data-tabs-target="#styled-profile" type="button" role="tab" aria-controls="profile" aria-selected="false">start with customer, end with customer</button>
               </li>
@@ -550,12 +590,12 @@
               <li class="me-2 mb-5" role="presentation">
                   <button class="inline-block text-red-700 hover:text-white hover:bg-red-800  focus:outline-none focus:border-gray-900 focus:bg-gray-900 focus:text-white font-medium rounded-xl text-sm px-5 py-2.5 text-center me-2 mb-2 dark:border-red-500 dark:text-red-500 dark:hover:text-white dark:hover:bg-red-600" id="contacts-styled-tab" data-tabs-target="#styled-contacts" type="button" role="tab" aria-controls="contacts" aria-selected="false">plan for tomorrow, focus on today</button>
               </li>
-          </ul>
+          </ul> --}}
         </div>
-    
+
         <div id="default-styled-tab-content">
           <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="styled-profile" role="tabpanel" aria-labelledby="profile-tab">
-          
+
             <div class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
               <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2024/06/05_we-before-me__500x500.webp" alt="">
               <div class="flex items-center">
@@ -565,9 +605,9 @@
                 </div>
               </div>
             </div>
-          
+
           </div>
-    
+
           <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="styled-dashboard" role="tabpanel" aria-labelledby="dashboard-tab">
             <div class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
               <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2024/06/05_we-before-me__500x500.webp" alt="">
@@ -579,9 +619,9 @@
               </div>
             </div>
           </div>
-    
+
           <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="styled-settings" role="tabpanel" aria-labelledby="settings-tab">
-             
+
             <div class=" grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
               <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  " src="https://www.foodpanda.com/wp-content/uploads/2024/06/04_challenge-the-status-quo__500x500.webp" alt="">
               <div class="flex items-center">
@@ -591,14 +631,14 @@
                 </div>
               </div>
             </div>
-    
+
           </div>
-    
+
           <div class="hidden p-4 rounded-lg bg-gray-50 dark:bg-gray-800" id="styled-contacts" role="tabpanel" aria-labelledby="contacts-tab">
               <p class="text-sm text-gray-500 dark:text-gray-400">This is some placeholder content the <strong class="font-medium text-gray-800 dark:text-white">Contacts tab's associated content</strong>. Clicking another tab will toggle the visibility of this one for the next. The tab JavaScript swaps classes to control the content visibility and styling.</p>
           </div>
-        </div>  
-    
+        </div>
+
     </section>
 
 
