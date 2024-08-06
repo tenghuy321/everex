@@ -37,36 +37,35 @@
             padding: 18px 40px;
             background-color: red;
             transition: 0.5s;
-            background: rgb(0, 0, 0);
         }
 
         .values .a-right {
-            background: linear-gradient(90deg, red 0%, blue 80%);
+            background: rgb(210,0,19);
+            background: linear-gradient(90deg, rgb(239 68 68) 42%, rgb(29 78 216) 84%);
             clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 10% 55%, 0% 0%);
         }
 
         .values .a-left {
-            background: linear-gradient(90deg, blue 20%, red 100%);
+            background: rgb(210,0,19);
+            background: linear-gradient(90deg, rgb(29 78 216) 42%, rgb(239 68 68) 100%);
             clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 20% 99%, 0% 55%, 20% 0%);
         }
     </style>
 @endsection
 
 @section('content')
-    <section class="hero">
+    <section class="hero section__text">
         <img src="https://www.foodpanda.com/wp-content/uploads/2023/02/about-foodpanda-1920x539.jpeg" alt="">
-        <div class="title">
-            <div class="about_title">
-                <h2 data-aos="fade-right" class="leading-normal md:text-5xl text-2xl">About <br>
-                    Everex Express</h2>
-            </div>
+        <div class="title mt-[-20px]">
+            <h2 data-aos="fade-right" class="leading-normal md:text-5xl text-2xl">About <br>
+                Everex Express</h2>
         </div>
     </section>
 
     <section data-aos="fade-right" class="section__text lg:px-4 max-w-screen-xl sm:mx-auto md:py-8 pt-4 md:pt-0 md:my-0 w-full">
         <div class="content-width md:py-16 md:flex md:items-center">
                 <aside class=" p-4 md:p-0">
-                    <h2 class="md:text-5xl mb-4 text-3xl font-bold md:my-12 md:text-center">
+                    <h2 class="md:text-5xl mb-4 text-3xl font-bold md:my-12">
                         From food delivery to your daily convenience companion.</h2>
                     <p>@lang('about.title_one')</p>
                     <p>@lang('about.title_two')</p>
@@ -75,95 +74,91 @@
         </div>
     </section>
 
-    <section class="about-carousel max-w-screen-xl sm:mx-auto md:py-8 md:my-10 lg:px-4 px-4">
+    <section data-aos="fade-up" class="section__text about-carousel max-w-screen-xl sm:mx-auto md:py-8 my-10 lg:px-4">
         <div id="default-carousel" class="relative w-full" data-carousel="slide">
             <!-- Carousel wrapper -->
-            <div class="relative overflow-hidden rounded-lg md:h-auto min-h-96">
+            <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
                 <!-- Item 1 -->
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <a href="#"
-                        class="absolute block w-full grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <div class=" md:px-0 md:order-none lg:order-none order-2">
-                            <h2 class="mb-2  md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white  text-3xl">
-                                Noteworthy technology acquisitions 2021</h2>
-                            <p class="md:my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick?
-                                We stand for swift personalised delivery solutions for our customers, partners and
-                                employees. Learn how we empower authentic lifestyles and drive innovation across the globe.
-                            </p>
+                        class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <div >
+                            <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                                technology acquisitions 2021</h2>
+                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
+                                We
+                                stand for swift personalised delivery solutions for our customers, partners and employees.
+                                Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
                         </div>
-                        <img class="md:order-none lg:order-none order-1 object-cover w-full rounded-t-lg md:h-96 h-auto"
+                        <img  class="object-cover w-full rounded-t-lg h-96 md:h-auto  "
                             src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg"
                             alt="">
                     </a>
                     {{-- <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."> --}}
                 </div>
-
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <a href="#"
-                        class="absolute block w-full grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <div class=" md:px-0 md:order-none lg:order-none order-2 ">
-                            <h2 class="mb-2  md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white  text-3xl">
-                                Noteworthy technology acquisitions 2021</h2>
-                            <p class="md:my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick?
-                                We stand for swift personalised delivery solutions for our customers, partners and
-                                employees. Learn how we empower authentic lifestyles and drive innovation across the globe.
-                            </p>
+                        class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <div>
+                            <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                                technology acquisitions 2021</h2>
+                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
+                                We
+                                stand for swift personalised delivery solutions for our customers, partners and employees.
+                                Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
                         </div>
-                        <img class="md:order-none lg:order-none order-1 object-cover w-full rounded-t-lg md:h-96 h-auto  "
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  "
                             src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg"
                             alt="">
                     </a>
                     {{-- <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."> --}}
                 </div>
-
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <a href="#"
-                        class="absolute block w-full grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <div class=" md:px-0 md:order-none lg:order-none order-2 ">
-                            <h2 class="mb-2 md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white  text-3xl">
-                                Noteworthy technology acquisitions 2021</h2>
-                            <p class="md:my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick?
-                                We stand for swift personalised delivery solutions for our customers, partners and
-                                employees. Learn how we empower authentic lifestyles and drive innovation across the globe.
-                            </p>
+                        class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <div>
+                            <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                                technology acquisitions 2021</h2>
+                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
+                                We
+                                stand for swift personalised delivery solutions for our customers, partners and employees.
+                                Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
                         </div>
-                        <img class="md:order-none lg:order-none order-1 object-cover w-full rounded-t-lg md:h-96 h-auto  "
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  "
                             src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg"
                             alt="">
                     </a>
                     {{-- <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."> --}}
                 </div>
-
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <a href="#"
-                        class="absolute block w-full grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <div class=" md:px-0 md:order-none lg:order-none order-2 ">
-                            <h2 class="mb-2 md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white  text-3xl">
-                                Noteworthy technology acquisitions 2021</h2>
-                            <p class="md:my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick?
+                        class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <div>
+                            <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                                technology acquisitions 2021</h2>
+                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
                                 We stand for swift personalised delivery solutions for our customers, partners and
                                 employees. Learn how we empower authentic lifestyles and drive innovation across the globe.
                             </p>
                         </div>
-                        <img class="md:order-none lg:order-none order-1 object-cover w-full rounded-t-lg md:h-96 h-auto  "
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  "
                             src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg"
                             alt="">
                     </a>
                     {{-- <img src="/docs/images/carousel/carousel-1.svg" class="absolute block w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."> --}}
                 </div>
-
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <a href="#"
-                        class="absolute block w-full grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <div class=" md:px-0 md:order-none lg:order-none order-2 ">
-                            <h2 class="mb-2 md:text-5xl font-bold tracking-tight text-gray-900 dark:text-white  text-3xl">
-                                Noteworthy technology acquisitions 2021</h2>
-                            <p class="md:my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick?
+                        class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
+                        <div>
+                            <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                                technology acquisitions 2021</h2>
+                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
                                 We stand for swift personalised delivery solutions for our customers, partners and
                                 employees. Learn how we empower authentic lifestyles and drive innovation across the globe.
                             </p>
                         </div>
-                        <img class="md:order-none lg:order-none order-1 object-cover w-full rounded-t-lg md:h-96 h-auto  "
+                        <img class="object-cover w-full rounded-t-lg h-96 md:h-auto  "
                             src="https://www.foodpanda.com/wp-content/uploads/2023/02/foodpanda-home-2-1024x576.jpg"
                             alt="">
                     </a>
@@ -185,7 +180,7 @@
             </div>
             <!-- Slider controls -->
             <button type="button"
-                class="absolute top-30 md:top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                 data-carousel-prev>
                 <span
                     class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
@@ -198,7 +193,7 @@
                 </span>
             </button>
             <button type="button"
-                class="absolute top-30 md:top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
+                class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none"
                 data-carousel-next>
                 <span
                     class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">

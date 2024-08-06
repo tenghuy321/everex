@@ -1,4 +1,5 @@
 {
+    "installCommand": "npm run prebuild && npm install",
     "rewrites": [
       { "source": "/(.*)", "destination": "/" }
     ]

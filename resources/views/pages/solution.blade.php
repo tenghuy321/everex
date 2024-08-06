@@ -43,12 +43,14 @@
         }
 
         .values .a-right {
-            background: linear-gradient(90deg, rgba(9, 0, 1, 1) 0%, rgba(210, 0, 19, 1) 80%);
+            background: rgb(210,0,19);
+            background: linear-gradient(90deg, rgb(239 68 68) 42%, rgb(29 78 216) 84%);
             clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 10% 55%, 0% 0%);
         }
 
         .values .a-left {
-            background: linear-gradient(90deg, rgba(210, 0, 19, 1) 20%, rgba(9, 0, 1, 1) 100%);
+            background: rgb(210,0,19);
+            background: linear-gradient(90deg, rgb(29 78 216) 42%, rgb(239 68 68) 100%);
             clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 20% 99%, 0% 55%, 20% 0%);
         }
     </style>
@@ -422,7 +424,7 @@
                         <div >
                             <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
                                 technology acquisitions 2021</h2>
-                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick?
+                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
                                 We
                                 stand for swift personalised delivery solutions for our customers, partners and employees.
                                 Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
@@ -439,7 +441,7 @@
                         <div>
                             <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
                                 technology acquisitions 2021</h2>
-                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick?
+                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
                                 We
                                 stand for swift personalised delivery solutions for our customers, partners and employees.
                                 Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
@@ -456,7 +458,7 @@
                         <div>
                             <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
                                 technology acquisitions 2021</h2>
-                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick?
+                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
                                 We
                                 stand for swift personalised delivery solutions for our customers, partners and employees.
                                 Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
@@ -473,7 +475,7 @@
                         <div>
                             <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
                                 technology acquisitions 2021</h2>
-                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick?
+                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
                                 We stand for swift personalised delivery solutions for our customers, partners and
                                 employees. Learn how we empower authentic lifestyles and drive innovation across the globe.
                             </p>
@@ -490,7 +492,7 @@
                         <div>
                             <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
                                 technology acquisitions 2021</h2>
-                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400">What makes quick commerce quick?
+                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
                                 We stand for swift personalised delivery solutions for our customers, partners and
                                 employees. Learn how we empower authentic lifestyles and drive innovation across the globe.
                             </p>
