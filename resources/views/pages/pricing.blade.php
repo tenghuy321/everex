@@ -63,13 +63,13 @@
                                                 <th scope="col" class="px-6 py-3 text-md md:text-lg">
                                                     Size
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md md:text-lg">
                                                     1 - 10
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md md:text-lg">
                                                     10 - 30
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md md:text-lg">
                                                     30 +
                                                 </th>
                                             </tr>
@@ -79,13 +79,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Startdard Size
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     5000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     4500
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     4000
                                                 </td>
                                             </tr>
@@ -93,13 +93,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Large
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     7000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     6500
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     6000
                                                 </td>
                                             </tr>
@@ -107,13 +107,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Extra Size
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     9000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     8500
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     8000
                                                 </td>
                                             </tr>
@@ -234,13 +234,13 @@
                                                 <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     Size
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
                                                     1 - 30
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
                                                     30 +
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
 
                                                 </th>
                                             </tr>
@@ -250,13 +250,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Startdard Size
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     3000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     4000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
 
                                                 </td>
                                             </tr>
@@ -264,13 +264,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Large
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     8000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     6000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
 
                                                 </td>
                                             </tr>
@@ -278,13 +278,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Extra Size
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                    7000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     8000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
 
                                                 </td>
                                             </tr>
@@ -404,14 +404,14 @@
                                                 <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     Size
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
                                                     1 - 30
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
                                                     30 - 40
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
-                                                    
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
+
                                                 </th>
                                             </tr>
                                         </thead>
@@ -420,13 +420,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Startdard Size
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     2000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     4000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
 
                                                 </td>
                                             </tr>
@@ -434,13 +434,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Large
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     4500
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     6000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
 
                                                 </td>
                                             </tr>
@@ -448,13 +448,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Extra Size
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     6500
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     8000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
 
                                                 </td>
                                             </tr>
@@ -582,13 +582,13 @@
                                                 <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     Size
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
                                                     1 - 30
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
                                                     30 - 40
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
                                                     40 +
                                                 </th>
                                             </tr>
@@ -598,13 +598,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Startdard Size
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     3000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     4000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     2999
                                                 </td>
                                             </tr>
@@ -612,13 +612,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Large
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     8000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     6000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     1999
                                                 </td>
                                             </tr>
@@ -626,13 +626,13 @@
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Extra Size
                                                 </th>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     8000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     8000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     1999
                                                 </td>
                                             </tr>
