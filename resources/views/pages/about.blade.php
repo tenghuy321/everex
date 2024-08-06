@@ -26,6 +26,7 @@
 
         }
 
+
         .values a {
             width: 250px;
             font-size: 18px;
@@ -56,24 +57,21 @@
         <img src="https://www.foodpanda.com/wp-content/uploads/2023/02/about-foodpanda-1920x539.jpeg" alt="">
         <div class="title">
             <div class="about_title">
-                <h2 data-aos="fade-right" class="leading-normal md:text-5xl text-3xl">About <br>
+                <h2 data-aos="fade-right" class="leading-normal md:text-5xl text-2xl">About <br>
                     Everex Express</h2>
             </div>
         </div>
     </section>
 
     <section data-aos="fade-right" class="section__text lg:px-4 max-w-screen-xl sm:mx-auto md:py-8 pt-4 md:pt-0 md:my-0 w-full">
-        <div class="content-width md:py-16 md:flex md:items-center justify-between">
-            <div
-                class="md:w-2/3 md:pr-8 lg:pr-16 mt-8 md:mt-0 order-1 flex flex-col items-start justify-center  md:order-0 ">
+        <div class="content-width md:py-16 md:flex md:items-center">
                 <aside class=" p-4 md:p-0">
-                    <h2 class="md:text-5xl mb-4 text-3xl font-bold md:my-12">
+                    <h2 class="md:text-5xl mb-4 text-3xl font-bold md:my-12 md:text-center">
                         From food delivery to your daily convenience companion.</h2>
                     <p>@lang('about.title_one')</p>
                     <p>@lang('about.title_two')</p>
                     <p>@lang('about.title_three')</p>
                 </aside>
-            </div>
         </div>
     </section>
 
