@@ -28,7 +28,7 @@
 
 
         .values a {
-            width: 250px;
+            /* width: 250px; */
             font-size: 18px;
             text-align: center;
             text-decoration: none;
@@ -47,7 +47,7 @@
 
         .values .a-left {
             background: rgb(210,0,19);
-            background: linear-gradient(90deg, rgb(29 78 216) 42%, rgb(239 68 68) 100%);
+            background: linear-gradient(90deg, rgb(29 78 216) 22%, rgb(239 68 68) 84%);
             clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 20% 99%, 0% 55%, 20% 0%);
         }
     </style>
@@ -65,7 +65,7 @@
     <section data-aos="fade-right" class="section__text lg:px-4 max-w-screen-xl sm:mx-auto md:py-8 pt-4 md:pt-0 md:my-0 w-full">
         <div class="content-width md:py-16 md:flex md:items-center">
                 <aside class=" p-4 md:p-0">
-                    <h2 class="md:text-5xl mb-4 text-3xl font-bold md:my-12">
+                    <h2 class="md:text-5xl lg:pl-10 mb-4 text-3xl font-bold md:my-12 md:text-center">
                         From food delivery to your daily convenience companion.</h2>
                     <p>@lang('about.title_one')</p>
                     <p>@lang('about.title_two')</p>
@@ -82,10 +82,10 @@
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <a href="#"
                         class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <div >
+                        <div class=" mx-4">
                             <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
                                 technology acquisitions 2021</h2>
-                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
+                            <p class="my-6 mx-4 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
                                 We
                                 stand for swift personalised delivery solutions for our customers, partners and employees.
                                 Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
@@ -99,7 +99,7 @@
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <a href="#"
                         class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <div>
+                        <div class="mx-4">
                             <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
                                 technology acquisitions 2021</h2>
                             <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
@@ -116,10 +116,10 @@
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <a href="#"
                         class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <div>
-                            <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
+                        <div class="mx-4">
+                            <h2 class="mb-2  text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
                                 technology acquisitions 2021</h2>
-                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
+                            <p class="my-6 mx-4 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
                                 We
                                 stand for swift personalised delivery solutions for our customers, partners and employees.
                                 Learn how we empower authentic lifestyles and drive innovation across the globe.</p>
@@ -133,10 +133,10 @@
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <a href="#"
                         class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <div>
+                        <div class="mx-4">
                             <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
                                 technology acquisitions 2021</h2>
-                            <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
+                            <p class="my-6 mx-4 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
                                 We stand for swift personalised delivery solutions for our customers, partners and
                                 employees. Learn how we empower authentic lifestyles and drive innovation across the globe.
                             </p>
@@ -150,7 +150,7 @@
                 <div class="hidden duration-700 ease-in-out" data-carousel-item>
                     <a href="#"
                         class="absolute w-full -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2 grid grid-cols-1 gap-6 sm:grid-cols-2 bg-white border-gray-200  dark:border-gray-700 dark:bg-gray-800 dark:hover:bg-gray-700">
-                        <div>
+                        <div class="mx-4">
                             <h2 class="mb-2 text-5xl font-bold tracking-tight text-gray-900 dark:text-white">Noteworthy
                                 technology acquisitions 2021</h2>
                             <p class="my-6 font-normal text-gray-700 dark:text-gray-400 hidden md:grid">What makes quick commerce quick?
@@ -208,31 +208,31 @@
         </div>
     </section>
 
-    <section data-aos="fade-down" class="section__text taps md:mt-16 max-w-screen-xl sm:mx-auto md:py-6">
+    <section  class="section__text taps md:mt-16 max-w-screen-xl sm:mx-auto md:py-6">
         <div class="w-full">
             <span class="text-center w-full">
-                <h2 class="text-5xl my-10 mb-12"> Our values </h2>
+                <h2 class="text-5xl my-10 mb-12" data-aos="fade-down"> Our values </h2>
             </span>
         </div>
 
-        <div class="flex items-center values justify-center ">
+        <div class="flex items-center values justify-center">
 
             <ul class="">
                 <li class="mt-5 flex flex-row  text-center justify-center items-center">
-                    <a href="#" class="a-right mr-3 ml-2 text-white">@lang('about.speed')</a>
-                    <p class="text-md lg:text-xl">@lang('about.sub_speed')</p>
+                    <a href="#" class="a-right text-white w-[220px] md:w-[250px]" data-aos="fade-right">@lang('about.speed')</a>
+                    <p class="text-md lg:text-xl md:ml-3" data-aos="fade-left">@lang('about.sub_speed')</p>
                 </li>
                 <li class="mt-5 flex text-center justify-center items-center">
-                    <p class="text-md lg:text-xl mr-3">@lang('about.sub_efficiency')</p> <a href="#"
-                        class="a-left mr-2 text-white">@lang('about.efficiency')</a>
+                    <p class="text-md lg:text-xl md:mr-3" data-aos="fade-right">@lang('about.sub_efficiency')</p>
+                    <a href="#" class="a-left text-white w-[220px] md:w-[250px]" data-aos="fade-left">@lang('about.efficiency')</a>
                 </li>
                 <li class="mt-5 flex text-center justify-center items-center">
-                    <a href="#" class="a-right mr-3 ml-2 text-white">@lang('about.excellence')</a>
-                    <p class="text-md lg:text-xl">@lang('about.sub_excellence')</p>
+                    <a href="#" class="a-right md:mr-3 text-white w-[220px] md:w-[250px]" data-aos="fade-right">@lang('about.excellence')</a>
+                    <p class="text-md lg:text-xl" data-aos="fade-left">@lang('about.sub_excellence')</p>
                 </li>
                 <li class="mt-5 flex text-center justify-center items-center">
-                    <p class="text-md lg:text-xl mr-3 ">@lang('about.sub_dedication')</p> <a href="#"
-                        class="a-left mr-2 text-white">@lang('about.dedication')</a>
+                    <p class="text-md lg:text-xl md:mr-3" data-aos="fade-right">@lang('about.sub_dedication')</p>
+                    <a href="#" class="a-left text-white w-[220px] md:w-[250px]" data-aos="fade-left">@lang('about.dedication')</a>
                 </li>
             </ul>
             {{-- <ul class="d-flex mb-px text-sm font-medium text-center" id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content" data-tabs-active-classes="text-purple-600 hover:text-purple-600 dark:text-purple-500 dark:hover:text-purple-500 border-purple-600 dark:border-purple-500" data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300" role="tablist">

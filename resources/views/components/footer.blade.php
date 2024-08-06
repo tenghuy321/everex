@@ -5,13 +5,13 @@
         <div>
             <ul class="text-white dark:text-white font-medium">
                 <li class="mb-4">
-                    <a href="#" class="hover:underline">Home</a>
+                    <a href="{{ url('/') }}" class="hover:underline">Home</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline  ">About</a>
+                    <a href="{{ url('/about') }}" class="hover:underline  ">About</a>
                 </li>
                 <li class="mb-4">
-                    <a href="#" class="hover:underline  ">Pricing</a>
+                    <a href="{{ url('/pricing') }}" class="hover:underline  ">Pricing</a>
                 </li>
             </ul>
         </div>

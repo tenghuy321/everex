@@ -16,5 +16,7 @@
         'customer_support' => 'Customer Support',
         'sub_customer_support' => 'Friendly and responsive support, always here to assist you',
         'btn' => 'Get Started',
-        'footer' =>  "Have any questions? Feel free to reach out to our friendly support team. We're here to help!"
+        'footer' =>  "Have any questions? Feel free to reach out to our friendly support team. We're here to help!",
+
+        'get_start' => 'Get Started'
     ];

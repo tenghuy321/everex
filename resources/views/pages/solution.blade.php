@@ -43,14 +43,14 @@
         }
 
         .values .a-right {
-            background: rgb(210,0,19);
+            /* background: rgb(210,0,19); */
             background: linear-gradient(90deg, rgb(239 68 68) 42%, rgb(29 78 216) 84%);
             clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 10% 55%, 0% 0%);
         }
 
         .values .a-left {
-            background: rgb(210,0,19);
-            background: linear-gradient(90deg, rgb(29 78 216) 42%, rgb(239 68 68) 100%);
+            /* background: rgb(210,0,19); */
+            background: linear-gradient(90deg, rgb(29 78 216) 22%, rgb(239 68 68) 84%);
             clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 20% 99%, 0% 55%, 20% 0%);
         }
     </style>
@@ -88,80 +88,81 @@
         </div>
 
         <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-4 mt-10">
-            <div class="max-w-md mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-md mx-auto bg-white border border-gray-300 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
                     <div class="text-center">
-                        <i class="fa-solid fa-truck-fast mb-5 text-2xl"></i>
+                        <i class="fa-solid fa-truck-fast mb-5 text-3xl md:text-4xl text-red-500"></i>
                     </div>
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-normal uppercase text-gray-900 dark:text-white text-center">@lang('solution.speed')</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center py-3">@lang('solution.sub_speed')</p>
-                    <a href="#" class="inline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-xl hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Get Started
+                    <a href="#" class="inline-flex items-center justify-center w-full text-center px-5 py-3 text-md font-medium text-white bg-blue-700 rounded-3xl hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        @lang('solution.get_start')
                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
                     </a>
                 </div>
             </div>
-            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm mx-auto bg-white border border-gray-300 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
                     <div class="text-center">
-                        <i class="fa-solid fa-handshake mb-5 text-2xl"></i>
+                        <i class="fa-solid fa-handshake mb-5 text-red-500 text-3xl md:text-4xl"></i>
                     </div>
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-normal uppercase text-gray-900 dark:text-white text-center">@lang('solution.reliability')</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center py-3">@lang('solution.sub_reliability')</p>
-                    <a href="#" class="inline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-xl hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Get Started
+                    <a href="#" class="inline-flex items-center justify-center w-full text-center px-5 py-3 text-md font-medium text-white bg-blue-700 rounded-3xl hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        @lang('solution.get_start')
+
                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
                     </a>
                 </div>
             </div>
-            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm mx-auto bg-white border border-gray-300 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
                     <div class="text-center">
-                        <i class="fa-solid fa-money-bill-wave mb-5 text-2xl"></i>
+                        <i class="fa-solid fa-money-bill-wave mb-5 text-red-500 text-3xl md:text-4xl"></i>
                     </div>
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-normal uppercase text-gray-900 dark:text-white text-center">@lang('solution.affordability')</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center py-3">@lang('solution.sub_affordability')</p>
-                    <a href="#" class="inline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-xl hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Get Started
+                    <a href="#" class="inline-flex items-center justify-center w-full text-center px-5 py-3 text-md font-medium text-white bg-blue-700 rounded-3xl hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        @lang('solution.get_start')
                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
                     </a>
                 </div>
             </div>
-            <div class="max-w-sm mx-auto bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700">
+            <div class="max-w-sm mx-auto bg-white border border-gray-300 rounded-lg shadow-2xl dark:bg-gray-800 dark:border-gray-700">
                 <a href="#">
                     <img class="rounded-t-lg" src="/docs/images/blog/image-1.jpg" alt="" />
                 </a>
                 <div class="p-5">
                     <div class="text-center">
-                        <i class="fa-solid fa-handshake-angle mb-5 text-2xl"></i>
+                        <i class="fa-solid fa-handshake-angle mb-5 text-red-500 text-3xl md:text-4xl"></i>
                     </div>
                     <a href="#">
                         <h5 class="mb-2 text-2xl font-bold tracking-normal uppercase text-gray-900 dark:text-white text-center">@lang('solution.customer_support')</h5>
                     </a>
                     <p class="mb-3 font-normal text-gray-700 dark:text-gray-400 text-center py-3">@lang('solution.sub_customer_support')</p>
-                    <a href="#" class="inline-flex items-center px-5 py-3 text-sm font-medium text-center text-white bg-blue-700 rounded-xl hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                        Get Started
+                    <a href="#" class="inline-flex items-center justify-center w-full text-center px-5 py-3 text-md font-medium text-white bg-blue-700 rounded-3xl hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">
+                        @lang('solution.get_start')
                         <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9"/>
                         </svg>
@@ -547,30 +548,30 @@
         </div>
     </section>
 
-    <section data-aos="fade-down" class="section__text taps md:mt-16 max-w-screen-xl sm:mx-auto md:py-6 ">
+    <section class="section__text taps md:mt-16 max-w-screen-xl sm:mx-auto md:py-6 ">
         <div class="w-full">
           <span class="text-center w-full">
-            <h2 class="text-5xl my-10 mb-12"> Our values </h2>
+            <h2 class="text-5xl my-10 mb-12" data-aos="fade-down"> Our values </h2>
           </span>
         </div>
 
         <div class="w-full inline-flex items-center justify-center values">
             <ul class="">
                 <li class="mt-5 flex flex-row  text-center justify-center items-center">
-                    <a href="#" class="a-right mr-3 ml-2 text-white">@lang('about.speed')</a>
-                    <p class="text-md lg:text-xl">@lang('about.sub_speed')</p>
+                    <a href="#" class="a-right mr-3 ml-2 text-white" data-aos="fade-right">@lang('about.speed')</a>
+                    <p class="text-md lg:text-xl" data-aos="fade-left">@lang('about.sub_speed')</p>
                 </li>
                 <li class="mt-5 flex text-center justify-center items-center">
-                    <p class="text-md lg:text-xl mr-3">@lang('about.sub_efficiency')</p> <a href="#"
-                        class="a-left mr-2 text-white">@lang('about.efficiency')</a>
+                    <p class="text-md lg:text-xl mr-3" data-aos="fade-right">@lang('about.sub_efficiency')</p> <a href="#"
+                        class="a-left mr-2 text-white" data-aos="fade-left">@lang('about.efficiency')</a>
                 </li>
                 <li class="mt-5 flex text-center justify-center items-center">
-                    <a href="#" class="a-right mr-3 ml-2 text-white">@lang('about.excellence')</a>
-                    <p class="text-md lg:text-xl">@lang('about.sub_excellence')</p>
+                    <a href="#" class="a-right mr-3 ml-2 text-white" data-aos="fade-right">@lang('about.excellence')</a>
+                    <p class="text-md lg:text-xl" data-aos="fade-left">@lang('about.sub_excellence')</p>
                 </li>
                 <li class="mt-5 flex text-center justify-center items-center">
-                    <p class="text-md lg:text-xl mr-3 ">@lang('about.sub_dedication')</p> <a href="#"
-                        class="a-left mr-2 text-white">@lang('about.dedication')</a>
+                    <p class="text-md lg:text-xl mr-3 " data-aos="fade-right">@lang('about.sub_dedication')</p> <a href="#"
+                        class="a-left mr-2 text-white" data-aos="fade-left">@lang('about.dedication')</a>
                 </li>
             </ul>
           {{-- <ul class="d-flex mb-px text-sm font-medium text-center" id="default-styled-tab" data-tabs-toggle="#default-styled-tab-content" data-tabs-active-classes="text-purple-600 hover:text-purple-600 dark:text-purple-500 dark:hover:text-purple-500 border-purple-600 dark:border-purple-500" data-tabs-inactive-classes="dark:border-transparent text-gray-500 hover:text-gray-600 dark:text-gray-400 border-gray-100 hover:border-gray-300 dark:border-gray-700 dark:hover:text-gray-300" role="tablist">

@@ -9,18 +9,16 @@
     </video>
     <div class="title">
       <div class="" data-aos="fade-right">
-        <h2 class=" md:text-5xl text-3xl">Fast & Reliable Deliveries <br>
-          You Can Trust</h2>
+        <h2 class="md:text-5xl md:leading-relaxed text-xl leading-normal">@lang('home.title') <br>
+            @lang('home.sub_title') </h2>
         </div>
     </div>
   </section>
-  <section data-aos="fade-right" class=" section__text text-left max-w-screen-xl sm:mx-auto md:py-8 ">
+  <section data-aos="fade-right" class="section__text text-left max-w-screen-xl sm:mx-auto md:py-8 ">
     <div class="p-4 md:p-0 w-full"></div>
-    <div class="lg:px-4 m-4 md:m-0 grid-cols-1 ">
-      <h2 class="md:py-12 md:text-4xl text-3xl lg:text-3xl">
-        Experience top-notch delivery services with Everex Express. 
-        We offer swift, cost-effective solutions tailored to meet your business needs. 
-        Spend more time doing what you more - we'll take care your every parcel.
+    <div class="lg:px-4 m-4 md:m-0 grid-cols-1">
+      <h2 class="md:py-12 md:text-4xl text-xl lg:text-3xl">
+        @lang('home.des')
       </h2>
     </div>
   </section>
@@ -59,7 +57,7 @@
   </section>
 
   <section class="section__text carousel mt-6">
-    
+
 
     <div id="default-carousel" class="relative " data-carousel="slide">
       <!-- Carousel wrapper -->
@@ -126,5 +124,5 @@
     </a>
   </section>
 
-  
+
 @endsection

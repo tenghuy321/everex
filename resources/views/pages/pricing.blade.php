@@ -30,7 +30,7 @@
 
 
     <section data-aos="fade-up" class="my-4">
-        <div class="flex flex-wrap md:flex-nowrap justify-center gap-4" >
+        <div class="flex flex-wrap md:flex-nowrap justify-center gap-4 max-w-screen-xl mx-auto" >
             <div
                 class=" w-full max-w-xs sm:max-w-lg p-4 bg-white border border-gray-200 rounded-lg shadow sm:p-8 dark:bg-gray-800 dark:border-gray-700">
                 <h5 class="mb-4 text-xl font-medium text-red-500 dark:text-red-700">Free</h5>
@@ -58,18 +58,18 @@
 
                                 <div class="relative overflow-x-auto">
                                     <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 *:text-red-500">
-                                        <thead class="text-xs uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                                            <tr class='border-b'>
+                                        <thead class="text-xs border-b uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                            <tr class=''>
                                                 <th scope="col" class="px-6 py-3 text-md md:text-lg">
                                                     Size
                                                 </th>
-                                                <th scope="col" class="px-4 md:px-6 py-3 text-md md:text-lg">
+                                                <th scope="col" class="px-2 md:px-6 py-3 text-md md:text-lg text-center">
                                                     1 - 10
                                                 </th>
-                                                <th scope="col" class="px-4 md:px-6 py-3 text-md md:text-lg">
+                                                <th scope="col" class="px-2  md:px-6 py-3 text-md md:text-lg text-center">
                                                     10 - 30
                                                 </th>
-                                                <th scope="col" class="px-4 md:px-6 py-3 text-md md:text-lg">
+                                                <th scope="col" class="px-2 md:px-6 py-3 text-md md:text-lg text-center">
                                                     30 +
                                                 </th>
                                             </tr>
@@ -240,9 +240,6 @@
                                                 <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
                                                     30 +
                                                 </th>
-                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
-
-                                                </th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -256,9 +253,7 @@
                                                 <td class="px-4 md:px-6 py-4 text-center">
                                                     4000
                                                 </td>
-                                                <td class="px-4 md:px-6 py-4 text-center">
 
-                                                </td>
                                             </tr>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
@@ -270,9 +265,7 @@
                                                 <td class="px-4 md:px-6 py-4 text-center">
                                                     6000
                                                 </td>
-                                                <td class="px-4 md:px-6 py-4 text-center">
 
-                                                </td>
                                             </tr>
                                             <tr class="bg-white dark:bg-gray-800">
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
@@ -284,9 +277,7 @@
                                                 <td class="px-4 md:px-6 py-4 text-center">
                                                     8000
                                                 </td>
-                                                <td class="px-4 md:px-6 py-4 text-center">
 
-                                                </td>
                                             </tr>
                                         </tbody>
                                     </table>
@@ -398,7 +389,7 @@
                             <div id="tooltip-default-3" role="tooltip" class="absolute z-10 invisible inline-block p-1 text-sm font-medium text-white transition-opacity duration-300 bg-red-500 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
 
                                 <div class="relative overflow-x-auto">
-                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 *:text-red-500">
+                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 *:text-red-500 border border-red-500">
                                         <thead class="text-xs border-b uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                             <tr>
                                                 <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
@@ -408,10 +399,7 @@
                                                     1 - 30
                                                 </th>
                                                 <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
-                                                    30 - 40
-                                                </th>
-                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
-
+                                                    30 +
                                                 </th>
                                             </tr>
                                         </thead>
@@ -426,9 +414,6 @@
                                                 <td class="px-4 md:px-6 py-4 text-center">
                                                     4000
                                                 </td>
-                                                <td class="px-4 md:px-6 py-4 text-center">
-
-                                                </td>
                                             </tr>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
@@ -440,9 +425,6 @@
                                                 <td class="px-4 md:px-6 py-4 text-center">
                                                     6000
                                                 </td>
-                                                <td class="px-4 md:px-6 py-4 text-center">
-
-                                                </td>
                                             </tr>
                                             <tr class="bg-white dark:bg-gray-800">
                                                 <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
@@ -453,9 +435,6 @@
                                                 </td>
                                                 <td class="px-4 md:px-6 py-4 text-center">
                                                     8000
-                                                </td>
-                                                <td class="px-4 md:px-6 py-4 text-center">
-
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -573,23 +552,23 @@
                         </svg>
                         <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">1900KHR/Percel</span>
                         <span class="mx-2 cursor-pointer" data-tooltip-target="tooltip-default-4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="24" fill="currentColor"><path d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-13a1 1 0 0 1 1 1v5a1 1 0 0 1-2 0V6a1 1 0 0 1 1-1zm0 10a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path></svg>
-                            <div id="tooltip-default-4" role="tooltip" class="absolute z-10 invisible inline-block p-1 text-sm font-medium text-white transition-opacity duration-300 bg-red-500 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            <div id="tooltip-default-4" role="tooltip" class="absolute z-10 p-1 invisible inline-block text-sm font-medium text-white transition-opacity duration-300 bg-red-500 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-400">
 
                                 <div class="relative overflow-x-auto">
-                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 *:text-red-500">
+                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 *:text-red-500 ">
                                         <thead class="text-xs border-b uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
-                                            <tr>
-                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                            <tr class=''>
+                                                <th scope="col" class="px-6 py-3 text-md md:text-lg">
                                                     Size
                                                 </th>
-                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
-                                                    1 - 30
+                                                <th scope="col" class="px-2 md:px-6 py-3 text-md md:text-lg">
+                                                    1 - 10
                                                 </th>
-                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
-                                                    30 - 40
+                                                <th scope="col" class="px-2  md:px-6 py-3 text-md md:text-lg">
+                                                    10 - 30
                                                 </th>
-                                                <th scope="col" class="px-4 md:px-6 py-3 text-md font-bold md:text-lg">
-                                                    40 +
+                                                <th scope="col" class="px-2 md:px-6 py-3 text-md md:text-lg">
+                                                    30 +
                                                 </th>
                                             </tr>
                                         </thead>
@@ -599,13 +578,13 @@
                                                     Startdard Size
                                                 </th>
                                                 <td class="px-4 md:px-6 py-4 text-center">
+                                                    5000
+                                                </td>
+                                                <td class="px-4 md:px-6 py-4 text-center">
                                                     3000
                                                 </td>
                                                 <td class="px-4 md:px-6 py-4 text-center">
-                                                    4000
-                                                </td>
-                                                <td class="px-4 md:px-6 py-4 text-center">
-                                                    2999
+                                                    2500
                                                 </td>
                                             </tr>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
@@ -613,13 +592,13 @@
                                                     Large
                                                 </th>
                                                 <td class="px-4 md:px-6 py-4 text-center">
-                                                    8000
+                                                    7000
                                                 </td>
                                                 <td class="px-4 md:px-6 py-4 text-center">
-                                                    6000
+                                                    5000
                                                 </td>
                                                 <td class="px-4 md:px-6 py-4 text-center">
-                                                    1999
+                                                    4500
                                                 </td>
                                             </tr>
                                             <tr class="bg-white dark:bg-gray-800">
@@ -627,13 +606,13 @@
                                                     Extra Size
                                                 </th>
                                                 <td class="px-4 md:px-6 py-4 text-center">
-                                                    8000
+                                                    9000
                                                 </td>
                                                 <td class="px-4 md:px-6 py-4 text-center">
-                                                    8000
+                                                    7000
                                                 </td>
                                                 <td class="px-4 md:px-6 py-4 text-center">
-                                                    1999
+                                                    6500
                                                 </td>
                                             </tr>
                                         </tbody>
