@@ -40,12 +40,12 @@
         }
 
         .values .a-right {
-            background: linear-gradient(90deg, rgba(9, 0, 1, 1) 0%, rgba(210, 0, 19, 1) 80%);
+            background: linear-gradient(90deg, red 0%, blue 80%);
             clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 10% 55%, 0% 0%);
         }
 
         .values .a-left {
-            background: linear-gradient(90deg, rgba(210, 0, 19, 1) 20%, rgba(9, 0, 1, 1) 100%);
+            background: linear-gradient(90deg, blue 20%, red 100%);
             clip-path: polygon(100% 0%, 90% 50%, 100% 100%, 20% 99%, 0% 55%, 20% 0%);
         }
     </style>

@@ -20,8 +20,8 @@
                 <span class="chech-text-month">
                     Monthly
                 </span>
-                <input type="checkbox" id="switch" x-model="annual" />
-                <label for="switch">Toggle</label>
+                <input type="checkbox" id="switch" x-model="annual"/>
+                <label for="switch" class="border border-gray-300">Toggle</label>
                 <span class="chech-text-month">
                     Annualy
                 </span>
@@ -54,67 +54,67 @@
                         <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">4000KHR - 5000KHR/Percel</span>
                         <span class="mx-2 cursor-pointer" data-tooltip-target="tooltip-default-1"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="24" fill="currentColor"><path d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-13a1 1 0 0 1 1 1v5a1 1 0 0 1-2 0V6a1 1 0 0 1 1-1zm0 10a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path></svg>
 
-                            <div id="tooltip-default-1" role="tooltip" class="absolute z-10 p-1 invisible inline-block text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-400">
+                            <div id="tooltip-default-1" role="tooltip" class="absolute z-10 p-1 invisible inline-block text-sm font-medium text-white transition-opacity duration-300 bg-red-500 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-400">
 
                                 <div class="relative overflow-x-auto">
-                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                        <thead class="text-xs text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 *:text-red-500">
+                                        <thead class="text-xs uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                             <tr class='border-b'>
-                                                <th scope="col" class="px-6 py-3 text-lg">
+                                                <th scope="col" class="px-6 py-3 text-md md:text-lg">
                                                     Size
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
-                                                    1 - 30
+                                                <th scope="col" class="px-6 py-3 text-md md:text-lg">
+                                                    1 - 10
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
-                                                    30 - 40
+                                                <th scope="col" class="px-6 py-3 text-md md:text-lg">
+                                                    10 - 30
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
-                                                    40 +
+                                                <th scope="col" class="px-6 py-3 text-md md:text-lg">
+                                                    30 +
                                                 </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Startdard Size
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
-                                                    3000
+                                                    5000
+                                                </td>
+                                                <td class="px-6 py-4 text-center">
+                                                    4500
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
                                                     4000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
-                                                    2999
-                                                </td>
                                             </tr>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Large
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
-                                                    8000
+                                                    7000
+                                                </td>
+                                                <td class="px-6 py-4 text-center">
+                                                    6500
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
                                                     6000
                                                 </td>
-                                                <td class="px-6 py-4 text-center">
-                                                    1999
-                                                </td>
                                             </tr>
                                             <tr class="bg-white dark:bg-gray-800">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Extra Size
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
-                                                    8000
+                                                    9000
+                                                </td>
+                                                <td class="px-6 py-4 text-center">
+                                                    8500
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
                                                     8000
-                                                </td>
-                                                <td class="px-6 py-4 text-center">
-                                                    1999
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -225,29 +225,29 @@
                         </svg>
                         <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">3000KHR/Percel</span>
                         <span class="mx-2 cursor-pointer" data-tooltip-target="tooltip-default-2"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="24" fill="currentColor"><path d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-13a1 1 0 0 1 1 1v5a1 1 0 0 1-2 0V6a1 1 0 0 1 1-1zm0 10a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path></svg>
-                            <div id="tooltip-default-2" role="tooltip" class="absolute z-10 invisible inline-block p-1 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            <div id="tooltip-default-2" role="tooltip" class="absolute z-10 invisible inline-block p-1 text-sm font-medium text-white transition-opacity duration-300 bg-red-500 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
 
                                 <div class="relative overflow-x-auto">
-                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                        <thead class="text-xs border-b text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 *:text-red-500">
+                                        <thead class="text-xs border-b uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                             <tr>
-                                                <th scope="col" class="px-6 py-3 text-lg">
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     Size
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     1 - 30
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
-                                                    30 - 40
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                                    30 +
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
-                                                    40 +
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+
                                                 </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Startdard Size
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
@@ -257,11 +257,11 @@
                                                     4000
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
-                                                    2999
+
                                                 </td>
                                             </tr>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Large
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
@@ -271,21 +271,21 @@
                                                     6000
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
-                                                    1999
+
                                                 </td>
                                             </tr>
                                             <tr class="bg-white dark:bg-gray-800">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Extra Size
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
-                                                    8000
+                                                   7000
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
                                                     8000
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
-                                                    1999
+
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -395,67 +395,67 @@
                         </svg>
                         <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">2500KHR/Percel</span>
                         <span class="mx-2 cursor-pointer" data-tooltip-target="tooltip-default-3"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="24" fill="currentColor"><path d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-13a1 1 0 0 1 1 1v5a1 1 0 0 1-2 0V6a1 1 0 0 1 1-1zm0 10a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path></svg>
-                            <div id="tooltip-default-3" role="tooltip" class="absolute z-10 invisible inline-block p-1 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            <div id="tooltip-default-3" role="tooltip" class="absolute z-10 invisible inline-block p-1 text-sm font-medium text-white transition-opacity duration-300 bg-red-500 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
 
                                 <div class="relative overflow-x-auto">
-                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                        <thead class="text-xs border-b text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 *:text-red-500">
+                                        <thead class="text-xs border-b uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                             <tr>
-                                                <th scope="col" class="px-6 py-3 text-lg">
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     Size
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     1 - 30
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     30 - 40
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
-                                                    40 +
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
+                                                    
                                                 </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Startdard Size
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
-                                                    3000
+                                                    2000
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
                                                     4000
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
-                                                    2999
+
                                                 </td>
                                             </tr>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Large
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
-                                                    8000
+                                                    4500
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
                                                     6000
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
-                                                    1999
+
                                                 </td>
                                             </tr>
                                             <tr class="bg-white dark:bg-gray-800">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Extra Size
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
-                                                    8000
+                                                    6500
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
                                                     8000
                                                 </td>
                                                 <td class="px-6 py-4 text-center">
-                                                    1999
+
                                                 </td>
                                             </tr>
                                         </tbody>
@@ -573,29 +573,29 @@
                         </svg>
                         <span class="text-base font-normal leading-tight text-gray-500 dark:text-gray-400 ms-3">1900KHR/Percel</span>
                         <span class="mx-2 cursor-pointer" data-tooltip-target="tooltip-default-4"><svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" width="24" fill="currentColor"><path d="M10 20C4.477 20 0 15.523 0 10S4.477 0 10 0s10 4.477 10 10-4.477 10-10 10zm0-2a8 8 0 1 0 0-16 8 8 0 0 0 0 16zm0-13a1 1 0 0 1 1 1v5a1 1 0 0 1-2 0V6a1 1 0 0 1 1-1zm0 10a1 1 0 1 1 0-2 1 1 0 0 1 0 2z"></path></svg>
-                            <div id="tooltip-default-4" role="tooltip" class="absolute z-10 invisible inline-block p-1 text-sm font-medium text-white transition-opacity duration-300 bg-gray-900 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
+                            <div id="tooltip-default-4" role="tooltip" class="absolute z-10 invisible inline-block p-1 text-sm font-medium text-white transition-opacity duration-300 bg-red-500 rounded-lg shadow-sm opacity-0 tooltip dark:bg-gray-700">
 
                                 <div class="relative overflow-x-auto">
-                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
-                                        <thead class="text-xs border-b text-gray-700 uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
+                                    <table class="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400 *:text-red-500">
+                                        <thead class="text-xs border-b uppercase bg-gray-50 dark:bg-gray-700 dark:text-gray-400">
                                             <tr>
-                                                <th scope="col" class="px-6 py-3 text-lg">
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     Size
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     1 - 30
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     30 - 40
                                                 </th>
-                                                <th scope="col" class="px-6 py-3 text-lg">
+                                                <th scope="col" class="px-6 py-3 text-md font-bold md:text-lg">
                                                     40 +
                                                 </th>
                                             </tr>
                                         </thead>
                                         <tbody>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Startdard Size
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
@@ -609,7 +609,7 @@
                                                 </td>
                                             </tr>
                                             <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Large
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
@@ -623,7 +623,7 @@
                                                 </td>
                                             </tr>
                                             <tr class="bg-white dark:bg-gray-800">
-                                                <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
+                                                <th scope="row" class="px-6 py-4 font-medium text-red-500 whitespace-nowrap dark:text-white">
                                                     Extra Size
                                                 </th>
                                                 <td class="px-6 py-4 text-center">
